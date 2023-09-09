@@ -26,13 +26,18 @@ Instructions:
 1. Fork a new branch from the main code repository.
 2. Complete the assignment on your branch.
 ```
-
-
-
-
+## Features
+- Create User
+- Authentication of user
+- create Task
+- Get All task
+- Get task by id
+- Delete task by id
+- Get Pending Task
+- Get Completed taks
+- Update Staus
 
 ## Tech Stack
-
 - Core Java
 - Spring Boot
 - Spring Security
@@ -43,7 +48,6 @@ Instructions:
 - postman
 - Intellij Idea
 - Giuhub
-
 
 ## Deployment
 
@@ -72,3 +76,9 @@ spring.web.resources.add-mappings=false
 spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER
 
 ```
+
+
+## Authors
+
+- [Pradeep Singroul (@pradeepsingroul) ](https://github.com/pradeepsingroul)
+
