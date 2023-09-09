@@ -1,5 +1,7 @@
 package com.aulacude.Entities;
 
+import com.aulacude.Enums.Status;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
