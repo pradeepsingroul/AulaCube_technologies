@@ -11,6 +11,6 @@ import com.aulacude.Entities.Task;
 @Repository
 public interface TaskRepo extends JpaRepository<Task, Integer>{
 
-	@Query(value = "SELECT * FROM task t WHERE t.status = 'Pending'",nativeQuery=true)
+	@Query(value = "SELECT * FROM task t WHERE t.status = 'PENDING'",nativeQuery=true)
 	List<Task> getActiveTask();
 }
