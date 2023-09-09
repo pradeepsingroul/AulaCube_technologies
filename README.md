@@ -1,5 +1,5 @@
 # AulaCube_technologies
-This is a simple project is given by auticude organization the project is
+This is a simple project is given by auticude organization the project details is given below
 ```
 Create a Simple RESTful API
 ● Preferred Programming Language: Java(Spring-boot) or JavaScript
