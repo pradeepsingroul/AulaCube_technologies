@@ -28,7 +28,7 @@ Instructions:
 ```
 ## Features
 - Create User
-- Authentication of user
+- Authentication of user(User Login)
 - create Task
 - Get All task
 - Get task by id
