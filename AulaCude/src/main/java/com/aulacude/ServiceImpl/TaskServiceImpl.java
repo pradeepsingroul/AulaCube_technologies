@@ -21,7 +21,13 @@ public class TaskServiceImpl implements TaskServices{
 	
 	@Override
 	public List<Task> getActiveTaskService() throws TaskExceptions {
-		List<Task> qList = tRepo.getActiveTask(); //finding the quizes
+		List<Task> qList = tRepo.getPendingTask(); //finding the quizes
+		return qList; //returning
+	}
+	
+	@Override
+	public List<Task> getCompletedTaskService() throws TaskExceptions {
+		List<Task> qList = tRepo.getCompletedTask(); //finding the quizes
 		return qList; //returning
 	}
 

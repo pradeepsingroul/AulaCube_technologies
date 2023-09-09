@@ -11,6 +11,8 @@ public interface TaskServices {
 	
 	    //active Task
 		List<Task> getActiveTaskService() throws TaskExceptions;
+		//active Task
+		List<Task> getCompletedTaskService() throws TaskExceptions;
 
 		//new Task
 		Task createTask(Task quize) throws TaskExceptions;

@@ -34,6 +34,11 @@ public class TaskController {
 		List<Task> activeTasklList = tService.getActiveTaskService();
 		return new ResponseEntity<>(activeTasklList,HttpStatus.OK);
 	}
+	@GetMapping("/completed") 
+	public ResponseEntity<List<Task>> getCompletedTaskController(){
+		List<Task> activeTasklList = tService.getActiveTaskService();
+		return new ResponseEntity<>(activeTasklList,HttpStatus.OK);
+	}
 	
 	//creating new task
 	@PostMapping()

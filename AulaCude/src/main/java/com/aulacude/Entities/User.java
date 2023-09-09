@@ -1,5 +1,7 @@
 package com.aulacude.Entities;
 
+import java.util.List;
+
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;
@@ -27,6 +29,8 @@ public class User {
 	
 	private String address;
 
+//	@OneToMany
+//	private List<Task> tasks;
 
 	public Integer getId() {
 		return id;
