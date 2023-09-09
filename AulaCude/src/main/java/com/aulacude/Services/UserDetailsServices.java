@@ -19,7 +19,7 @@ import com.aulacude.Repository.UserRepo;
 
 
 @Service
-public class PlayerDetailsService implements UserDetailsService{
+public class UserDetailsServices implements UserDetailsService{
 	
 	
 	
